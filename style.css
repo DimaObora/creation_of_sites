@@ -801,7 +801,7 @@ i {
 
     .slogan {
         top: 60%;
-        left: 55%;
+        left: 52%;
     }
 
     .chart {
@@ -860,28 +860,31 @@ i {
     .man {
         left: 28%;
     }
+    .slogan h4 {
+        font-size: 1.4rem;
+    }
 
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
     .rectangle_under_slogan_1 {
-        left: -1039px;
+        left: -839px;
         top: -73px;
     }
 
     .rectangle_under_slogan_2 {
-        left: -914px;
+        left: -814px;
         top: -50px;
     }
 
     .rectangle_under_slogan_3 {
-        left: -1628px;
+        left: -1528px;
         top: -221px;
     }
 
     .slogan {
-        top: 60%;
-        left: 57%;
+        top: 66%;
+        left: 51%;
     }
 
     .rectangle_under_slogan_3__property {
@@ -891,6 +894,7 @@ i {
     .slogan h1 {
         font-size: 2.5rem;
     }
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -919,7 +923,10 @@ i {
     }
 
     .slogan h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    .slogan h4 {
+        font-size: 1.2rem;
     }
 }
 

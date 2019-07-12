@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="25" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d59f05-e3b2-4c4b-8ff7-8f6a513eeec9" name="Default Changelist" comment="" />
+    <list default="true" id="82d59f05-e3b2-4c4b-8ff7-8f6a513eeec9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/img/contrakt2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/contrakt2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/tz.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/tz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.1">
+    <splitter split-orientation="horizontal" split-proportion="0.67412937">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="29" />
+                <state relative-caret-position="561">
+                  <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -29,10 +37,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="438">
-                  <caret line="1130" column="1" selection-start-line="1130" selection-start-column="1" selection-end-line="1130" selection-end-column="1" />
+                <state relative-caret-position="377">
+                  <caret line="928" column="22" selection-start-line="928" selection-start-column="22" selection-end-line="928" selection-end-column="22" />
                   <folding>
-                    <marker date="1562946591922" expanded="true" signature="16208:16209" ph="..." />
+                    <marker date="1562973207716" expanded="true" signature="16306:16307" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -72,8 +80,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6001">
-                  <caret line="353" column="130" selection-start-line="353" selection-start-column="130" selection-end-line="353" selection-end-column="130" />
+                <state relative-caret-position="425">
+                  <caret line="25" column="116" selection-start-line="25" selection-start-column="116" selection-end-line="25" selection-end-column="116" />
                 </state>
               </provider>
             </entry>
@@ -139,17 +147,17 @@
       <list>
         <option value="$PROJECT_DIR$/3.css" />
         <option value="$PROJECT_DIR$/3.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="177" />
-    <option name="y" value="-25" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="1912" />
+    <option name="y" value="52" />
+    <option name="width" value="1296" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,6 +181,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -208,18 +217,18 @@
       <workItem from="1562480750699" duration="33074000" />
       <workItem from="1562580316654" duration="45136000" />
       <workItem from="1562795340149" duration="5118000" />
-      <workItem from="1562942948554" duration="11856000" />
+      <workItem from="1562942948554" duration="15802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136142000" />
+    <option name="totallyTimeSpent" value="140088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="52" width="1296" height="1010" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920508" visible="true" weight="0.015991472" />
-      <window_info id="Structure" order="1" sideWeight="0.5007949" side_tool="true" visible="true" weight="0.015991472" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.024271844" />
+      <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.024271844" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -231,7 +240,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30879122" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22950819" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -307,16 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="1130" column="1" selection-start-line="1130" selection-start-column="1" selection-end-line="1130" selection-end-column="1" />
-          <folding>
-            <marker date="1562946591922" expanded="true" signature="16208:16209" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Oruginals/web/wp-content/themes/web-originals/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
@@ -352,8 +351,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6001">
-          <caret line="353" column="130" selection-start-line="353" selection-start-column="130" selection-end-line="353" selection-end-column="130" />
+        <state relative-caret-position="561">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="928" column="22" selection-start-line="928" selection-start-column="22" selection-end-line="928" selection-end-column="22" />
+          <folding>
+            <marker date="1562973207716" expanded="true" signature="16306:16307" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
