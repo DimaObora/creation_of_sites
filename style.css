@@ -362,6 +362,9 @@ i {
         transform: skewY(0);
         -webkit-transform: skewY(0);
     }
+    .icon-odd:before {
+        left: -11px;
+    }
 }
 
 /*конец стилей для блока УСЛУГИ*/
@@ -929,6 +932,11 @@ i {
         font-size: 1.2rem;
     }
 }
+@media only screen and (min-width: 400px) and (max-width: 7670px){
+    .title h1 {
+        font-size: 2rem;
+    }
+}
 
 /*БЛОК О НАС*/
 .img_about_us {
@@ -944,8 +952,34 @@ i {
     margin: auto;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1200px) {
+@media only screen and (min-width: 400px) and (max-width: 764px) {
+    .rectangle_under_slogan_1 {
+        display: none;
+    }
+    .rectangle_under_slogan_2 {
+        display: none;
+    }
 
+    .restyling{
+        width: 100% !important;
+    }
+    .icon-odd:before {
+        left: -6px;
+    }
+.center_btn_abaut_as{
+    left: 50%;
+    margin-left: -77px;
+}
+.slogan_mini{
+    padding: 5%;
+    background: rgb(240, 241, 255);
+}
+    .slogan_mini h1 {
+        font-size: 2rem;
+    }
+    .slogan_mini h4 {
+        font-size: 1.1rem;
+    }
 }
 
 /*КОНЕЦ О НАС*/
@@ -970,15 +1004,7 @@ i {
     margin-bottom: 4%;
 
 }
-.prodject:nth-child(3n-1){
-    box-shadow: -25px 25px 16px 0px rgba(0, 0, 0, 0.23);
-}
-.prodject:nth-child(3n-3){
-    box-shadow: 0px 25px 16px 0px rgba(0, 0, 0, 0.23);
-}
-.prodject:nth-child(3n-2){
-    box-shadow: 25px 25px 16px 0px rgba(0, 0, 0, 0.23);
-}
+
 
 
 .prodject img {
@@ -1053,6 +1079,24 @@ i {
 .center_btn_project {
     left: 50%;
     margin-left: -97px;
+}@media only screen and (min-width: 993px){
+
+    .prodject:nth-child(3n-1){
+        box-shadow: -25px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    }
+    .prodject:nth-child(3n-3){
+        box-shadow: 0px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    }
+    .prodject:nth-child(3n-2){
+        box-shadow: 25px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 764px){
+    .center_btn_project {
+        left: 50%;
+        margin-left: -98px;
+    }
+
 }
 /*close project*/
 
