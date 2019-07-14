@@ -1200,6 +1200,19 @@ font-size: 2rem!important;
     width: 100%;
     height: 600px;
 }
+.content_map{
+    background: #bfe2ff;
+    border-radius: 5px;
+
+}
+.content_map td {
+    font-size: 12px;
+    padding: 0;
+
+}
+#156309922411924265222{
+    height: 128px !important;
+}
 /*close contact*/
 
 
