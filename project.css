@@ -1,0 +1,94 @@
+/*project*/
+.prodject {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 0;
+    margin-bottom: 4%;
+}
+
+.prodject img {
+    width: 100%;
+}
+
+.prodject a {
+    vertical-align: middle;
+}
+
+.prodject img + img,
+.prodject img + h2 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 3px;
+    margin-left: -114px;
+    transition: transform 0.7s ease 0s;
+    transform: scale(0);
+    font-size: 1.2rem;
+    color: #fff;
+    z-index: 1;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.prodject a:hover img + img,
+.prodject a:hover img + h2 {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.prodject a:before {
+    transition: all 0.5s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    background: #bfe2ff;
+    transform: scale(0);
+    width: 94%;
+}
+
+.prodject a:hover:before {
+    opacity: 0.5;
+    transform: scale(1);
+}
+
+.prodject a:after {
+    transition: all 0.6s ease 0.2s;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 23px;
+    right: 23px;
+    bottom: 8px;
+    border: 3px solid #fff;
+    background: #337ab7;
+    opacity: 0;
+    transform: scale(0);
+    width: 89%;
+}
+
+.prodject a:hover:after {
+    opacity: .75;
+    transform: scale(1);
+}
+
+.center_btn_project {
+    left: 50%;
+    margin-left: -97px;
+}
+@media only screen and (min-width: 992px) {
+    .prodject:nth-child(3n-1){
+        box-shadow: -25px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    }
+    .prodject:nth-child(3n-3){
+        box-shadow: 0px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    }
+    .prodject:nth-child(3n-2){
+        box-shadow: 25px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    }
+}
+/*close project*/
