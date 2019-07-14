@@ -365,6 +365,16 @@ i {
     .icon-odd:before {
         left: -11px;
     }
+    .service h2{
+font-size: 2rem!important;
+    }
+    .img_steps {
+        width: 326px !important;
+        height: 170px;
+    }
+    .title {
+        margin: 2% 0 0 0;
+    }
 }
 
 /*конец стилей для блока УСЛУГИ*/
@@ -932,9 +942,16 @@ i {
         font-size: 1.2rem;
     }
 }
-@media only screen and (min-width: 400px) and (max-width: 7670px){
+@media only screen and (min-width: 350px) and (max-width: 767px){
     .title h1 {
         font-size: 2rem;
+    }
+    .center_btn_heder{
+        left: 50%;
+        margin-left: -77px;
+    }
+    .bot-35{
+        margin-bottom: 35%;
     }
 }
 
@@ -952,7 +969,7 @@ i {
     margin: auto;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 764px) {
+@media only screen and (min-width: 350px) and (max-width: 764px) {
     .rectangle_under_slogan_1 {
         display: none;
     }
