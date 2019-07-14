@@ -1183,6 +1183,12 @@ i {
 .steps:hover h2:nth-child(-n+3) {
     top: -100px;
 }
+@media only screen and (min-width: 992px){
+    .mar-top-35{
+        margin-top: 15%;
+    }
+}
+
 /*close steps*/
 /*--------------------------------------------------------------------*/
 /*contact*/
