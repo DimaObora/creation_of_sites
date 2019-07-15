@@ -1472,6 +1472,7 @@ i {
 }
 @media only screen and (min-width: 768px){
     .callback-bt {
-        bottom: 15%;
+        bottom: 10%;
+        left: 5%;
     }
 }
