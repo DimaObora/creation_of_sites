@@ -722,7 +722,7 @@ span {
 
 .service {
     margin: 10% 0 0 0;
-    min-height: 450px;
+    min-height: 330px;
     padding: 0 15px;
     position: relative;
     z-index: 1;
@@ -779,7 +779,8 @@ span {
 }
 
 .service_title {
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
 }
 
 .stline-arrow-left:before {
@@ -816,16 +817,15 @@ i {
     bottom: 0;
     right: 10%;
 }
-
 .icon {
     position: relative;
     z-index: 6;
     display: inline-block;
     text-align: center;
     color: #f6f7ff;
-    padding: 21px 30px;
+    padding: 14px 25px;
     margin-top: -3%;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .icon {
@@ -951,6 +951,17 @@ i {
 }
 
 @media only screen and (min-width: 768px) {
+    .service_title {
+        margin-bottom: 5%;
+        font-size: 2rem;
+    }
+    .icon {
+        padding: 21px 30px;
+        font-size: 3rem;
+    }
+    .service {
+        min-height: 450px;
+    }
     .service:nth-child(2n):before {
         transform: skewY(10deg);
         -webkit-transform: skewY(10deg);
@@ -985,7 +996,7 @@ i {
 
 @media only screen and (min-width: 1200px) {
     .service_title {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .odd {
