@@ -1304,7 +1304,7 @@ i {
     left: 8%;
     bottom: 6%;
     border-radius: 50%;
-    z-index:9;
+    z-index:15;
     transition:.3s;
     -webkit-animation:hoverWave linear 1s infinite;
     animation:hoverWave linear 1s infinite;
@@ -1312,7 +1312,7 @@ i {
 
 
 .callback-bt:hover {
-    z-index:1;
+    z-index:15;
     background:#fff;
     color:transparent;
     transition:.3s;
