@@ -470,7 +470,7 @@ span {
         font-size: 2.3rem;
     }
     .offer {
-        z-index: 9999;
+        z-index: 9;
         position: absolute;
         top: 55%;
         left: 4%;
@@ -1098,16 +1098,16 @@ i {
 }
 
 .prodject img + img,
-.prodject img + h2 {
+.prodject img + table {
     display: block;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 33%;
+    left: 25%;
     margin-top: 3px;
-    margin-left: -114px;
+    margin-left: -98px;
     transition: transform 0.7s ease 0s;
     transform: scale(0);
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     color: #fff;
     z-index: 1;
     text-transform: uppercase;
@@ -1115,7 +1115,7 @@ i {
 }
 
 .prodject a:hover img + img,
-.prodject a:hover img + h2 {
+.prodject a:hover img + table {
     transform: scale(1);
     opacity: 1;
 }
