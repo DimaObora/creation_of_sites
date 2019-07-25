@@ -68,7 +68,7 @@ $(document).ready(function ($) {
                 '<table border="0" width="100%" cellpadding="5">' +
                 '<tr>' +
                 '<td>Старомышастовская</td>' +
-                '<td><a href="tel:+79885242737">+7(988)52-42-737;</a></td>' +
+                '<td><a href="tel:+79885242737">+7(988) 52-42-737</a></td>' +
                 '</tr>'+'<tr>' +
                 '<td> ул. Садовая 211 </td>' +
                 '<td><a class="tel" href="tel:+79002475139">+7(900) 24-75-139</a></td>' +

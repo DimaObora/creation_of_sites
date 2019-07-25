@@ -1,6 +1,9 @@
 .bot-8 {
     margin-bottom: 8%;
 }
+.bot-15{
+    margin-bottom: 15%;
+}
 .mar-top-35{
     margin-top: 35%;
 }
@@ -140,6 +143,9 @@
     opacity: 1;
 
 }
+.mar-left{
+    margin-left: -8%;
+}
 
 .btn_action {
     padding: 15px 30px;
@@ -152,6 +158,13 @@
     line-height: 2rem;
     margin-top: 4%;
 }
+.font-siz{
+    font-size: 1rem;
+}
+.pad{
+    padding: 15px 15px;
+}
+
 
 .pos_absolute {
     position: absolute;
@@ -395,7 +408,7 @@
 }
 
 .slogan_mini h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .slogan_mini h4 {
@@ -407,9 +420,14 @@ span {
     font-weight: bold;
 }
 
-@media only screen and (min-width: 500px) {
+
+
+@media only screen and (min-width: 425px) {
     .mar-bot {
         margin-bottom: 17%;
+    }
+    .with{
+        width: 100%;
     }
 
 }
@@ -422,14 +440,6 @@ span {
 
     .rectangle_under_slogan_3__property {
         font-size: 13px;
-    }
-
-    .slogan h1 {
-        font-size: 2rem;
-    }
-
-    .slogan h4 {
-        font-size: 1.2rem;
     }
 
     .rectangle_under_slogan_1 {
@@ -448,8 +458,8 @@ span {
     }
 
     .slogan {
-        top: 66%;
-        left: 51%;
+        top: 60%;
+        left: 52%;
     }
 
     .rectangle_under_slogan_3__property {
@@ -457,7 +467,13 @@ span {
     }
 
     .slogan h1 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
+    }
+    .offer {
+        z-index: 9999;
+        position: absolute;
+        top: 55%;
+        left: 4%;
     }
 
 }
@@ -513,13 +529,6 @@ span {
         left: 41%;
     }
 
-    .slogan h1 {
-        font-size: 2.5rem;
-    }
-
-    .slogan h4 {
-        font-size: 1.5rem;
-    }
 
     .man_on_stairs {
         left: 7%;
@@ -576,12 +585,14 @@ span {
         left: 59%;
     }
 
-    .slogan h1 {
-        font-size: 2.5rem;
-    }
+
 }
 
 @media only screen and (min-width: 1600px) {
+
+    .slogan h1 {
+        font-size: 2.5rem;
+    }
     .rectangle_under_slogan_1 {
         left: -539px;
         top: -73px;
@@ -598,8 +609,8 @@ span {
     }
 
     .slogan {
-        top: 55%;
-        left: 48%;
+        top: 56%;
+        left: 42%;
     }
 
     .gear {
@@ -644,6 +655,12 @@ span {
     .man_on_pc {
         left: 31%;
     }
+    .offer{
+        z-index: 9999;
+        position: absolute;
+        top: 55%;
+        left: 13%;
+    }
 }
 
 @media only screen and (min-width: 1900px) {
@@ -665,7 +682,7 @@ span {
     }
 
     .slogan h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -960,7 +977,7 @@ i {
         font-size: 3rem;
     }
     .service {
-        min-height: 450px;
+        min-height: 348px;
     }
     .service:nth-child(2n):before {
         transform: skewY(10deg);
@@ -1010,6 +1027,13 @@ i {
     .title h1 {
         font-size: 2.5rem;
     }
+    .vertical-align {
+        height: 25%;
+    }
+    .vertical-aligen {
+        height: 25%;
+    }
+
 }
 
 @media only screen and (min-width: 1900px) {
@@ -1486,4 +1510,8 @@ i {
         bottom: 10%;
         left: 5%;
     }
+}
+
+.offer .textbox{
+    border: #162bff 1px solid;
 }
