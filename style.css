@@ -1112,6 +1112,7 @@ i {
     z-index: 1;
     text-transform: uppercase;
     padding: 0 15px;
+    width: 100%;
 }
 
 .prodject a:hover img + img,
@@ -1181,6 +1182,41 @@ i {
     .prodject:nth-child(3n-2){
         box-shadow: 25px 25px 16px 0px rgba(0, 0, 0, 0.23);
         padding-right: 0 !important;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .prodject img + img, .prodject img + table {
+        top: 26%;
+        left: 32%;
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .prodject img + img, .prodject img + table {
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (min-width: 1400px) {
+
+    .prodject img + img, .prodject img + table {
+        margin-left: -130px;
+        top: 29%;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .prodject img + img, .prodject img + table {
+        font-size: 1.2rem;
+        margin-left: -150px;
+    }
+}
+@media only screen and (min-width: 1900px) and (max-width: 2032px){
+
+    .prodject img + img, .prodject img + table {
+        font-size: 1rem;
+        margin-left: -130px;
     }
 }
 /*close project*/
