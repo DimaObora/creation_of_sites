@@ -479,6 +479,16 @@ span {
 }
 
 @media only screen and (min-width: 1200px) {
+    .slogan {
+        top: 54%;
+        left: 54%;
+    }
+    .slogan h1 {
+        font-size: 2rem;
+    }
+    .offer {
+        top: 48%;
+    }
     .chart {
         top: 16%;
         left: -12%;
@@ -609,8 +619,8 @@ span {
     }
 
     .slogan {
-        top: 56%;
-        left: 42%;
+        top: 54%;
+        left: 43%;
     }
 
     .gear {
@@ -1344,6 +1354,11 @@ a{
         font-size: 14px;
     }
 }
+@media only screen and (min-width: 1280px) and (max-width: 1366px){
+    .heder{
+        margin-top: -5%;
+    }
+}
 /*close contact*/
 /*---------------------------------*/
 
@@ -1373,7 +1388,7 @@ a{
     height:68px;
     width:68px;
     position: fixed;
-    left: 8%;
+    right: 8%;
     bottom: 6%;
     border-radius: 50%;
     z-index:15;
@@ -1556,7 +1571,7 @@ a{
 @media only screen and (min-width: 768px){
     .callback-bt {
         bottom: 10%;
-        left: 5%;
+        right: 5%;
     }
 }
 
