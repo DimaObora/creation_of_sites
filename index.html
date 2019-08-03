@@ -27,7 +27,8 @@
         реклама настройка, реклама сайт, реклама яндекс директ, сайт оптимизация, сайт под ключ, сайт продвижение, сайт раскрутка,
         сайт создание, сайт яндекс, сео продвижение, система продвижения, создание +и продвижение, создание landing page,
         создание приложение, таргетированная реклама, таргетировать рекламу, яндекс директ, яндекс директ цена, яндекс реклама">
-
+    <link rel="stylesheet" href="styles/style1.css" type="text/css"/>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 <!--HEDER-->
@@ -45,8 +46,7 @@
                             <form id="feedbackform">
                                 <input name="pfone" placeholder="Укажите ваш телефон!"
                                        class="textbox feedback col-xl-12 col-sm-12  phone-mask" required/>
-                                <input class="btn_action bot-8  font-siz with pad" type="submit" id="feedbackbt"
-                                       value="Бесплатная консультацию"/>
+                                <button class="btn_action bot-8  font-siz with pad " type="submit" id="feedbackbt"><p>Бесплатная консультация</p></button>
                             </form>
                         </div>
                     </div>
@@ -82,8 +82,7 @@
                         <form id="feedbackform">
                             <input name="pfone" placeholder="Укажите ваш телефон!"
                                    class="textbox feedback col-xl-12 col-sm-12  phone-mask" required/>
-                            <input class="btn_action bot-8 font-siz with " type="submit" id="feedbackbt"
-                                   value="Бесплатная консультацию"/>
+                            <button class="btn_action bot-8 font-siz with " type="submit" id="feedbackbt"><p>Бесплатная консультация</p></button>
 
                         </form>
                     </div>
@@ -264,7 +263,7 @@
                 </p>
 
                 <a href="tel:+79885242737">
-                    <button class="btn_action pos_absolute center_btn_abaut_as">Получить консультацию</button>
+                    <button class="btn_action pos_absolute center_btn_abaut_as"><p>Получить консультацию</p></button>
                 </a>
             </div>
         </div>
@@ -709,10 +708,8 @@
                            type="email" required/>
                     <textarea rows="4" cols="50" name="message" placeholder="Введите ваше сообщение:"
                               class="message feedback" required></textarea>
-                    <input class="btn_action bot-8 " type="submit" id="feedbackbt" value="Отправить"/>
-                    <div class="captcha">
-                        <p>Подтвердите что вы не робот</p>
-                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LcdK7EUAAAAAPgpRNq5lbVN_01dcO2_epALeIIo"></div>
+                    <button class="btn_action bot-8 btn_text_center with" type="submit" id="feedbackbt" ><p>Отправить</p></button>
                 </form>
             </div>
             <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
