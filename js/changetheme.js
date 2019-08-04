@@ -6,7 +6,6 @@ function disableStylesheet (node) {
     node.media = 'none';
 }
 
-var selecttheme = document.getElementById("changetheme");
 var oldvalue = "style1";
 
 function changetheme(value) {
