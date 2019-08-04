@@ -1,18 +1,25 @@
+//$first-color: rgb(123, 123, 123);
+//$second-color: rgb(40, 40, 40);
+//$first-color-dark: rgba(170, 170, 170, 0.23);
+//$second-color-dark: rgba(24, 24, 24, 0.23);
+
 $first-color: rgb(207, 47, 90);
 $second-color: rgb(59, 93, 255);
+$first-color-dark: rgba(207, 47, 90, 0.23);
+$second-color-dark: rgba(59, 93, 255, 0.23);
 
-/*кастомные цвета и фикс кнопок*/
+//кастомные цвета и фикс кнопок
 .btn_action {
   background-color: $first-color;
   padding: 0 0 0 0;
-  /*так текст будет по центру кнопки*/
+  //так текст будет по центру кнопки
   font-family: Arial;
-  /*где-то косяк который переопределяет 1 кнопку поэтому заного переопределил*/
+  //где-то косяк который переопределяет 1 кнопку поэтому заного переопределил
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-/*текст кнопки с отступами по нормальному*/
+//текст кнопки с отступами по нормальному
 .btn_action>p{
   font: inherit;
   padding: 10px 25px;
@@ -71,15 +78,15 @@ span {
 
 .icon-odd:before {
   background-color: $first-color;
-  box-shadow: -30px 18px 16px 0px rgba(207, 47, 90, 0.23);
+  box-shadow: -30px 18px 16px 0px $first-color-dark;
 }
 
 .icon-even:before {
   background-color: $second-color;
-  box-shadow: 30px 18px 16px 0px rgba(59, 93, 255, 0.23);
+  box-shadow: 30px 18px 16px 0px $second-color-dark;
 }
 
-/*убрал анимацию текста из-за задержки смены цвета*/
+//убрал анимацию текста из-за задержки смены цвета
 .service:hover h2, .service:hover .arrow-left, .service:hover .arrow-right, .service:hover p {
   -o-transition: all 0.0s ease-in-out;
   -moz-transition: all 0.0s ease-in-out;
@@ -87,7 +94,7 @@ span {
   transition: all 0.0s ease-in-out;
 }
 
-/*фикс выступающих пикселей на 1 слайде*/
+//фикс выступающих пикселей на 1 слайде
 .rectangle_under_slogan_1__property {
   transform: matrix3d(1, -0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
@@ -98,7 +105,7 @@ span {
   transform: matrix3d(0.95, -0.3, 0, 0, 0.3, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 }
 
-/*убрал у стрелок тень*/
+//убрал у стрелок тень
 .fa-arrow-left {
   text-shadow: none;
 }
@@ -107,7 +114,7 @@ span {
   text-shadow: none;
 }
 
-/*изменил размеры и скорость анимации у проектов*/
+//изменил размеры и скорость анимации у проектов
 .prodject a:before {
   transition: all 0.3s ease;
   content: "";
