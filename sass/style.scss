@@ -1,0 +1,148 @@
+body{
+  background-color: $five-color;
+  color: $text-color;
+}
+
+.slogan h1 {
+  color: $text-color-second;
+}
+//кастомные цвета и фикс кнопок
+.btn_action {
+  background-color: $first-color;
+  padding: 0 0 0 0;
+  //так текст будет по центру кнопки
+  font-family: Arial;
+  //где-то косяк который переопределяет 1 кнопку поэтому заного переопределил
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+//текст кнопки с отступами по нормальному
+.btn_action>p{
+  font: inherit;
+  padding: 10px 25px;
+  margin: 0;
+}
+
+.btn_action:hover {
+  transform: unset;
+  background-color: $second-color;
+  box-shadow: unset;
+}
+
+.arrow-right {
+  color: $second-color;
+}
+
+.arrow-left {
+  color:  $first-color;
+}
+.service:nth-child(2n+1):before, .service:nth-child(2n):before{
+  background-color: $five-color;
+}
+
+.service:nth-child(2n+1):hover:before {
+  background:  $first-color;
+}
+
+.service:nth-child(2n):hover:before {
+  background: $second-color;
+}
+
+.service:hover .icon-odd:before, .service:hover .icon-even:before {
+  background: $five-color;
+}
+
+.service:nth-child(2n+1):hover .icon {
+  color:  $first-color;
+}
+
+.service:nth-child(2n):hover .icon {
+  color: $second-color;
+}
+
+span {
+  color: $first-color;
+}
+
+.odd {
+  color: $first-color;
+}
+
+.even {
+  color:  $second-color;
+}
+
+.line:before {
+  background-color: $first-color;
+}
+
+.icon-odd:before {
+  background-color: $first-color;
+  box-shadow: -30px 18px 16px 0px $first-color-dark;
+}
+
+.icon-even:before {
+  background-color: $second-color;
+  box-shadow: 30px 18px 16px 0px $second-color-dark;
+}
+
+//убрал анимацию текста из-за задержки смены цвета
+.service:hover h2, .service:hover .arrow-left, .service:hover .arrow-right, .service:hover p {
+  -o-transition: all 0.0s ease-in-out;
+  -moz-transition: all 0.0s ease-in-out;
+  -webkit-transition: all 0.0s ease-in-out;
+  transition: all 0.0s ease-in-out;
+}
+
+//фикс выступающих пикселей на 1 слайде
+.rectangle_under_slogan_1__property {
+  transform: matrix3d(1, -0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: $six-color;
+}
+.rectangle_under_slogan_2__property {
+  transform: matrix3d(0.99, -0.2, 0, 0, 0.2, 0.98, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: $thirst-color;
+}
+.rectangle_under_slogan_3__property {
+  transform: matrix3d(0.95, -0.3, 0, 0, 0.3, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: $six-color;
+}
+
+//убрал у стрелок тень
+.fa-arrow-left {
+  text-shadow: none;
+}
+
+.fa-arrow-right {
+  text-shadow: none;
+}
+
+//изменил размеры и скорость анимации у проектов
+.prodject a:before {
+  transition: all 0.3s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $four-color;
+  transform: scale(0);
+  width: 100%;
+}
+
+.prodject a:after {
+  transition: all 0.6s ease 80ms;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: $thirst-color;
+  opacity: 0;
+  transform: scale(0);
+  width: 100%;
+}

@@ -27,7 +27,9 @@
         реклама настройка, реклама сайт, реклама яндекс директ, сайт оптимизация, сайт под ключ, сайт продвижение, сайт раскрутка,
         сайт создание, сайт яндекс, сео продвижение, система продвижения, создание +и продвижение, создание landing page,
         создание приложение, таргетированная реклама, таргетировать рекламу, яндекс директ, яндекс директ цена, яндекс реклама">
-
+    <link rel="stylesheet" href="styles/style1.css" id="style1" type="text/css"/>
+    <link rel="stylesheet" href="styles/style2.css" media="none" id="style2" type="text/css"/>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 <!--HEDER-->
@@ -45,8 +47,7 @@
                             <form id="feedbackform">
                                 <input name="pfone" placeholder="Укажите ваш телефон!"
                                        class="textbox feedback col-xl-12 col-sm-12  phone-mask" required/>
-                                <input class="btn_action bot-8  font-siz with pad" type="submit" id="feedbackbt"
-                                       value="Бесплатная консультацию"/>
+                                <button class="btn_action bot-8  font-siz with pad " type="submit" id="feedbackbt"><p>Бесплатная консультация</p></button>
                             </form>
                         </div>
                     </div>
@@ -82,9 +83,7 @@
                         <form id="feedbackform">
                             <input name="pfone" placeholder="Телефон для консультации!"
                                    class="textbox feedback col-xl-12 col-sm-12  phone-mask" required/>
-                            <input class="btn_action  font-siz with " type="submit" id="feedbackbt"
-                                   value="Бесплатная консультацию"/>
-
+                            <button class="btn_action  font-siz with  " type="submit" id="feedbackbt"><p>Бесплатная консультация</p></button>
                         </form>
                     </div>
                 </div>
@@ -265,7 +264,7 @@
                 </p>
 
                 <a href="tel:+79885242737">
-                    <button class="btn_action pos_absolute center_btn_abaut_as">Получить консультацию</button>
+                    <button class="btn_action pos_absolute center_btn_abaut_as"><p>Получить консультацию</p></button>
                 </a>
             </div>
         </div>
@@ -710,10 +709,8 @@
                            type="email" required/>
                     <textarea rows="4" cols="50" name="message" placeholder="Введите ваше сообщение:"
                               class="message feedback" required></textarea>
-                    <input class="btn_action bot-8 " type="submit" id="feedbackbt" value="Отправить"/>
-                    <div class="captcha">
-                        <p>Подтвердите что вы не робот</p>
-                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LcdK7EUAAAAAPgpRNq5lbVN_01dcO2_epALeIIo"></div>
+                    <button class="btn_action bot-8 btn_text_center with" type="submit" id="feedbackbt" ><p>Отправить</p></button>
                 </form>
             </div>
             <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12">
@@ -803,6 +800,13 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 
+<select id="changetheme" style="z-index: 999999; background-color: red;" onchange="changetheme(this.value);">
+    <option selected value="style1">style1</option>
+    <option value="style2">style2</option>
+</select>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -814,6 +818,7 @@
 
 <script src="js/main.js"></script>
 <script src="js/mask.js"></script>
+<script src="js/changetheme.js"></script>
 
 <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
 

@@ -1,0 +1,136 @@
+#map {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%); }
+  #map::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    transition: opacity 0.6s;
+    opacity: 1; }
+
+body {
+  background-color: #080808;
+  color: #ffffff; }
+
+.slogan h1 {
+  color: #ffffff; }
+
+.btn_action {
+  background-color: #606060;
+  padding: 0 0 0 0;
+  font-family: Arial;
+  font-size: 1.5rem;
+  line-height: 2rem; }
+
+.btn_action > p {
+  font: inherit;
+  padding: 10px 25px;
+  margin: 0; }
+
+.btn_action:hover {
+  transform: unset;
+  background-color: #838383;
+  box-shadow: unset; }
+
+.arrow-right {
+  color: #838383; }
+
+.arrow-left {
+  color: #606060; }
+
+.service:nth-child(2n+1):before, .service:nth-child(2n):before {
+  background-color: #080808; }
+
+.service:nth-child(2n+1):hover:before {
+  background: #606060; }
+
+.service:nth-child(2n):hover:before {
+  background: #838383; }
+
+.service:hover .icon-odd:before, .service:hover .icon-even:before {
+  background: #080808; }
+
+.service:nth-child(2n+1):hover .icon {
+  color: #606060; }
+
+.service:nth-child(2n):hover .icon {
+  color: #838383; }
+
+span {
+  color: #606060; }
+
+.odd {
+  color: #606060; }
+
+.even {
+  color: #838383; }
+
+.line:before {
+  background-color: #606060; }
+
+.icon-odd:before {
+  background-color: #606060;
+  box-shadow: -30px 18px 16px 0px rgba(96, 96, 96, 0.23); }
+
+.icon-even:before {
+  background-color: #838383;
+  box-shadow: 30px 18px 16px 0px rgba(131, 131, 131, 0.23); }
+
+.service:hover h2, .service:hover .arrow-left, .service:hover .arrow-right, .service:hover p {
+  -o-transition: all 0.0s ease-in-out;
+  -moz-transition: all 0.0s ease-in-out;
+  -webkit-transition: all 0.0s ease-in-out;
+  transition: all 0.0s ease-in-out; }
+
+.rectangle_under_slogan_1__property {
+  transform: matrix3d(1, -0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: #1e1e1e; }
+
+.rectangle_under_slogan_2__property {
+  transform: matrix3d(0.99, -0.2, 0, 0, 0.2, 0.98, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: #222222; }
+
+.rectangle_under_slogan_3__property {
+  transform: matrix3d(0.95, -0.3, 0, 0, 0.3, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: #1e1e1e; }
+
+.fa-arrow-left {
+  text-shadow: none; }
+
+.fa-arrow-right {
+  text-shadow: none; }
+
+.prodject a:before {
+  transition: all 0.3s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #161616;
+  transform: scale(0);
+  width: 100%; }
+
+.prodject a:after {
+  transition: all 0.6s ease 80ms;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: #222222;
+  opacity: 0;
+  transform: scale(0);
+  width: 100%; }
+
+/*# sourceMappingURL=style2.css.map */
