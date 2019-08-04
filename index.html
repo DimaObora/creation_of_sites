@@ -27,7 +27,8 @@
         реклама настройка, реклама сайт, реклама яндекс директ, сайт оптимизация, сайт под ключ, сайт продвижение, сайт раскрутка,
         сайт создание, сайт яндекс, сео продвижение, система продвижения, создание +и продвижение, создание landing page,
         создание приложение, таргетированная реклама, таргетировать рекламу, яндекс директ, яндекс директ цена, яндекс реклама">
-    <link rel="stylesheet" href="styles/style1.css" type="text/css"/>
+    <link rel="stylesheet" href="styles/style1.css" id="style1" type="text/css"/>
+    <link rel="stylesheet" href="styles/style2.css" media="none" id="style2" type="text/css"/>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
@@ -723,7 +724,10 @@
     </a>
 
 </section>
-
+<select id="changetheme" style="z-index: 999999; background-color: red;" onchange="changetheme(this.value);">
+    <option selected value="style1">style1</option>
+    <option value="style2">style2</option>
+</select>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -737,6 +741,7 @@
 <script src="icon_customImage.js" type="text/javascript"></script>
 <script src="js/main.js"></script>
 <script src="js/mask.js"></script>
+<script src="js/changetheme.js"></script>
 
 
 </body>
