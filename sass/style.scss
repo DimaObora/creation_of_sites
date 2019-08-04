@@ -1,12 +1,10 @@
-//$first-color: rgb(123, 123, 123);
-//$second-color: rgb(40, 40, 40);
-//$first-color-dark: rgba(170, 170, 170, 0.23);
-//$second-color-dark: rgba(24, 24, 24, 0.23);
+//$first-color: rgb(196, 31, 26);
+//$second-color: rgb(70, 194, 203);
 
 $first-color: rgb(207, 47, 90);
 $second-color: rgb(59, 93, 255);
-$first-color-dark: rgba(207, 47, 90, 0.23);
-$second-color-dark: rgba(59, 93, 255, 0.23);
+$first-color-dark: rgba($first-color, 0.23);
+$second-color-dark: rgba($second-color, 0.23);
 
 //кастомные цвета и фикс кнопок
 .btn_action {
