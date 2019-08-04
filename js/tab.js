@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+
     //клик по ссылкам верхнего уровня
     $('.accordeon_trigger').on('click', function (e) {
         // запрещает дефолдное действие эл. переход по ссылке
@@ -41,4 +43,5 @@ $(document).ready(function () {
 
 
     });
+
 });

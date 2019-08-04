@@ -80,9 +80,9 @@
                 <div class="offer">
                     <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12">
                         <form id="feedbackform">
-                            <input name="pfone" placeholder="Укажите ваш телефон!"
+                            <input name="pfone" placeholder="Телефон для консультации!"
                                    class="textbox feedback col-xl-12 col-sm-12  phone-mask" required/>
-                            <input class="btn_action bot-8 font-siz with " type="submit" id="feedbackbt"
+                            <input class="btn_action  font-siz with " type="submit" id="feedbackbt"
                                    value="Бесплатная консультацию"/>
 
                         </form>
@@ -90,6 +90,7 @@
                 </div>
             </div>
             <div class="col-xl-6 col-lg-8  d-none d-lg-block">
+
                 <div class="chart">
                     <img src="img/slideimg10.png" alt="">
                 </div>
@@ -721,15 +722,87 @@
         </div>
     </div>
 
-    <a class="callback-bt" href="tel:+79885242737">
-        <i class="fa fa-phone"></i>
+    <a class="callback-bt" >
+
     </a>
 
 </section>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+<!--collback-->
+<div class="wrapper">
+    <div class="container">
+        <a class="callback-bt" >
+            <i class="fa fa-phone"></i>
+        </a>
+        <div class="tabs">
+            <ul class="tabs_list tabs_list_first">
+                <li class=" tabs_item tabs_item_first active">
+                    <div id="vk_community_messages"></div>
+                </li>
+                <li class="tabs_item tabs_item_second">
+                    <div class="telegram">
+                        <iframe id="tgw_5d4207db83ba88c0258b4567" frameborder="0" scrolling="no" horizontalscrolling="no"
+                                verticalscrolling="no" width="100%" height="540px" async></iframe>
+                    </div>
+
+                </li>
+                <li class="tabs_item tabs_item_third">
+                    <form id="feedbackform">
+                        <h2 class="bot-8">Перезвоним в течение 2 минут</h2>
+                        <input name="pfone" placeholder="Укажите ваш телефон!"
+                               class="collback_input feedback col-xl-7 col-sm-6  phone-mask" required/>
+                        <input class="btn_collbasck " type="submit" id="feedbackbt" value="Перезвонить"/>
+                    </form>
+                </li>
+                <li class="tabs_item tabs_item_four">
+                        <form id="collback_form">
+                            <h5 >Оставьте свое сообщение и мы Вам ответин на Email</h5>
+                            <input name="name" placeholder="Укажите ваше имя!" class="collback_input feedback col-xl-12 col-sm-12  "
+                                   required/>
+                            <input name="pfone" placeholder="Укажите ваш телефон!"
+                                   class="collback_input feedback col-xl-12 col-sm-12  phone-mask" required/>
+                            <input name="emailaddress" placeholder="Укажите ваш Email!"
+                                   class="collback_input feedback col-xl-12 col-sm-12 "
+                                   type="email" required/>
+                            <textarea rows="4" cols="50" name="message" placeholder="Введите ваше сообщение:"
+                                      class="colback_message feedback" required></textarea>
+                            <input class="collback_btn_action bot-8 " type="submit" id="collback_form_btn" value="Отправить"/>
+
+                        </form>
+                </li>
+
+
+            </ul>
+
+            <ul class="tabs_controls">
+                <li class="tabs_controls-item active" data-class="first">
+                    <a href="#" class="tabs_controls-link"><i class="fa fa-vk"></i></a>
+                </li>
+                <li class="tabs_controls-item " data-class="second">
+                    <a href="#" class="tabs_controls-link"><i class="fa fa-telegram"></i></a>
+                </li>
+                <li class="tabs_controls-item " data-class="third">
+                    <a href="#" class="tabs_controls-link"><i class="fa fa-phone"></i></a>
+                </li>
+                <li class="tabs_controls-item " data-class="four">
+                    <a href="#" class="tabs_controls-link"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li class="tabs_controls-item " data-class="five">
+                    <a class="tabs_controls-link" href="tel:+79885242737"><i class="fa fa-phone-square"></i></a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!--close collback-->
+
+<div class="pop_up">
+
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -737,9 +810,22 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-<script src="icon_customImage.js" type="text/javascript"></script>
+
+
 <script src="js/main.js"></script>
 <script src="js/mask.js"></script>
+
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
+
+<!-- VK Widget -->
+<script type="text/javascript">
+    VK.Widgets.CommunityMessages("vk_community_messages", 152297715, {expanded: "1",tooltipButtonText: "Есть вопрос?"});
+</script>
+
+<script>document.addEventListener("DOMContentLoaded",function(){document.getElementById("tgw_5d4207db83ba88c0258b4567").setAttribute("src","https://tgwidget.com/channel/v2.0/?id=5d4207db83ba88c0258b4567")})</script>
+
+
+
 
 
 </body>
