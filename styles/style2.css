@@ -1,12 +1,12 @@
 body {
-  background-color: white;
-  color: #000000; }
+  background-color: #080808;
+  color: #ffffff; }
 
 .slogan h1 {
-  color: #4b4b4b; }
+  color: #ffffff; }
 
 .btn_action {
-  background-color: #cf2f5a;
+  background-color: #606060;
   padding: 0 0 0 0;
   font-family: Arial;
   font-size: 1.5rem;
@@ -19,52 +19,52 @@ body {
 
 .btn_action:hover {
   transform: unset;
-  background-color: #3b5dff;
+  background-color: #838383;
   box-shadow: unset; }
 
 .arrow-right {
-  color: #3b5dff; }
+  color: #838383; }
 
 .arrow-left {
-  color: #cf2f5a; }
+  color: #606060; }
 
 .service:nth-child(2n+1):before, .service:nth-child(2n):before {
-  background-color: white; }
+  background-color: #080808; }
 
 .service:nth-child(2n+1):hover:before {
-  background: #cf2f5a; }
+  background: #606060; }
 
 .service:nth-child(2n):hover:before {
-  background: #3b5dff; }
+  background: #838383; }
 
 .service:hover .icon-odd:before, .service:hover .icon-even:before {
-  background: white; }
+  background: #080808; }
 
 .service:nth-child(2n+1):hover .icon {
-  color: #cf2f5a; }
+  color: #606060; }
 
 .service:nth-child(2n):hover .icon {
-  color: #3b5dff; }
+  color: #838383; }
 
 span {
-  color: #cf2f5a; }
+  color: #606060; }
 
 .odd {
-  color: #cf2f5a; }
+  color: #606060; }
 
 .even {
-  color: #3b5dff; }
+  color: #838383; }
 
 .line:before {
-  background-color: #cf2f5a; }
+  background-color: #606060; }
 
 .icon-odd:before {
-  background-color: #cf2f5a;
-  box-shadow: -30px 18px 16px 0px rgba(207, 47, 90, 0.23); }
+  background-color: #606060;
+  box-shadow: -30px 18px 16px 0px rgba(96, 96, 96, 0.23); }
 
 .icon-even:before {
-  background-color: #3b5dff;
-  box-shadow: 30px 18px 16px 0px rgba(59, 93, 255, 0.23); }
+  background-color: #838383;
+  box-shadow: 30px 18px 16px 0px rgba(131, 131, 131, 0.23); }
 
 .service:hover h2, .service:hover .arrow-left, .service:hover .arrow-right, .service:hover p {
   -o-transition: all 0.0s ease-in-out;
@@ -74,15 +74,15 @@ span {
 
 .rectangle_under_slogan_1__property {
   transform: matrix3d(1, -0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  background-color: #ebebeb; }
+  background-color: #1e1e1e; }
 
 .rectangle_under_slogan_2__property {
   transform: matrix3d(0.99, -0.2, 0, 0, 0.2, 0.98, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  background-color: #337ab7; }
+  background-color: #222222; }
 
 .rectangle_under_slogan_3__property {
   transform: matrix3d(0.95, -0.3, 0, 0, 0.3, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  background-color: #ebebeb; }
+  background-color: #1e1e1e; }
 
 .fa-arrow-left {
   text-shadow: none; }
@@ -98,7 +98,7 @@ span {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #bfe2ff;
+  background: #161616;
   transform: scale(0);
   width: 100%; }
 
@@ -111,9 +111,9 @@ span {
   right: 0;
   bottom: 0;
   border: 0;
-  background: #337ab7;
+  background: #222222;
   opacity: 0;
   transform: scale(0);
   width: 100%; }
 
-/*# sourceMappingURL=style1.css.map */
+/*# sourceMappingURL=style2.css.map */
