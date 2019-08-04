@@ -1,11 +1,8 @@
-//$first-color: rgb(196, 31, 26);
-//$second-color: rgb(70, 194, 203);
+@import "palette";
 
-$first-color: rgb(207, 47, 90);
-$second-color: rgb(59, 93, 255);
-$first-color-dark: rgba($first-color, 0.23);
-$second-color-dark: rgba($second-color, 0.23);
-
+body{
+  background-color: $five-color;
+}
 //кастомные цвета и фикс кнопок
 .btn_action {
   background-color: $first-color;
@@ -37,6 +34,9 @@ $second-color-dark: rgba($second-color, 0.23);
 .arrow-left {
   color:  $first-color;
 }
+.service:nth-child(2n+1):before, .service:nth-child(2n):before{
+  background-color: $five-color;
+}
 
 .service:nth-child(2n+1):hover:before {
   background:  $first-color;
@@ -47,7 +47,7 @@ $second-color-dark: rgba($second-color, 0.23);
 }
 
 .service:hover .icon-odd:before, .service:hover .icon-even:before {
-  background: #f6f7ff;
+  background: $five-color;
 }
 
 .service:nth-child(2n+1):hover .icon {
@@ -121,7 +121,7 @@ span {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #bfe2ff;
+  background: $four-color;
   transform: scale(0);
   width: 100%;
 }
@@ -135,7 +135,7 @@ span {
   right: 0;
   bottom: 0;
   border: 0;
-  background: #337ab7;
+  background: $thirst-color;
   opacity: 0;
   transform: scale(0);
   width: 100%;

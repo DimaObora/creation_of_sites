@@ -1,5 +1,8 @@
+body {
+  background-color: white; }
+
 .btn_action {
-  background-color: #c41f1a;
+  background-color: #cf2f5a;
   padding: 0 0 0 0;
   font-family: Arial;
   font-size: 1.5rem;
@@ -12,49 +15,52 @@
 
 .btn_action:hover {
   transform: unset;
-  background-color: #46c2cb;
+  background-color: #3b5dff;
   box-shadow: unset; }
 
 .arrow-right {
-  color: #46c2cb; }
+  color: #3b5dff; }
 
 .arrow-left {
-  color: #c41f1a; }
+  color: #cf2f5a; }
+
+.service:nth-child(2n+1):before, .service:nth-child(2n):before {
+  background-color: white; }
 
 .service:nth-child(2n+1):hover:before {
-  background: #c41f1a; }
+  background: #cf2f5a; }
 
 .service:nth-child(2n):hover:before {
-  background: #46c2cb; }
+  background: #3b5dff; }
 
 .service:hover .icon-odd:before, .service:hover .icon-even:before {
-  background: #f6f7ff; }
+  background: white; }
 
 .service:nth-child(2n+1):hover .icon {
-  color: #c41f1a; }
+  color: #cf2f5a; }
 
 .service:nth-child(2n):hover .icon {
-  color: #46c2cb; }
+  color: #3b5dff; }
 
 span {
-  color: #c41f1a; }
+  color: #cf2f5a; }
 
 .odd {
-  color: #c41f1a; }
+  color: #cf2f5a; }
 
 .even {
-  color: #46c2cb; }
+  color: #3b5dff; }
 
 .line:before {
-  background-color: #c41f1a; }
+  background-color: #cf2f5a; }
 
 .icon-odd:before {
-  background-color: #c41f1a;
-  box-shadow: -30px 18px 16px 0px rgba(196, 31, 26, 0.23); }
+  background-color: #cf2f5a;
+  box-shadow: -30px 18px 16px 0px rgba(207, 47, 90, 0.23); }
 
 .icon-even:before {
-  background-color: #46c2cb;
-  box-shadow: 30px 18px 16px 0px rgba(70, 194, 203, 0.23); }
+  background-color: #3b5dff;
+  box-shadow: 30px 18px 16px 0px rgba(59, 93, 255, 0.23); }
 
 .service:hover h2, .service:hover .arrow-left, .service:hover .arrow-right, .service:hover p {
   -o-transition: all 0.0s ease-in-out;
