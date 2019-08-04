@@ -1671,7 +1671,7 @@ a{
 }
 .tabs_controls-item a{
     color: #fff;
-    padding: 11px
+    padding: 9px
 }
 #feedbackform h2{
     font-size: 1.5rem;
@@ -1691,6 +1691,7 @@ a{
 .tabs_item_four{
     z-index: 9;
 }
+
 @media only screen and (min-width: 768px){
     .callback-bt {
         bottom: 6%;
