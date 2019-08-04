@@ -12,7 +12,7 @@ $(document).ready(function ($) {
 
     $('.tabs_controls-link').on('click', function (e) {
         // запрещает дефолдное действие эл. переход по ссылке
-        // e.preventDefault();
+        e.preventDefault();
 
         // указываем переменную li  найдем ее относительно jq
         var item = $(this).closest('.tabs_controls-item'),
