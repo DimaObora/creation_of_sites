@@ -2,6 +2,11 @@
 
 body{
   background-color: $five-color;
+  color: $text-color;
+}
+
+.slogan h1 {
+  color: $text-color-second;
 }
 //кастомные цвета и фикс кнопок
 .btn_action {
@@ -95,12 +100,15 @@ span {
 //фикс выступающих пикселей на 1 слайде
 .rectangle_under_slogan_1__property {
   transform: matrix3d(1, -0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: $six-color;
 }
 .rectangle_under_slogan_2__property {
   transform: matrix3d(0.99, -0.2, 0, 0, 0.2, 0.98, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: $thirst-color;
 }
 .rectangle_under_slogan_3__property {
   transform: matrix3d(0.95, -0.3, 0, 0, 0.3, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: $six-color;
 }
 
 //убрал у стрелок тень
