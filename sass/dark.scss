@@ -10,7 +10,7 @@ $six-color: rgb(30, 30, 30);//блоки в шапке
 $text-color: #ffffff;
 $text-color-second: #ffffff;
 
-#map{
+#map,img{
   &::after {
     content: '';
     position: absolute;
