@@ -1,133 +1,115 @@
-/*кастомные цвета и фикс кнопок*/
+@charset "UTF-8";
+/*╨║╨░╤Б╤В╨╛╨╝╨╜╤Л╨╡ ╤Ж╨▓╨╡╤В╨░ ╨╕ ╤Д╨╕╨║╤Б ╨║╨╜╨╛╨┐╨╛╨║*/
 .btn_action {
-    background-color: rgb(207, 47, 90);
-    padding: 0 0 0 0;
-    /*так текст будет по центру кнопки*/
-    font-family: Arial;
-     /*где-то косяк который переопределяет 1 кнопку поэтому заного переопределил*/
-     font-size: 1.5rem;
-     line-height: 2rem;
-}
+  background-color: #cf2f5a;
+  padding: 0 0 0 0;
+  /*╤В╨░╨║ ╤В╨╡╨║╤Б╤В ╨▒╤Г╨┤╨╡╤В ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г ╨║╨╜╨╛╨┐╨║╨╕*/
+  font-family: Arial;
+  /*╨│╨┤╨╡-╤В╨╛ ╨║╨╛╤Б╤П╨║ ╨║╨╛╤В╨╛╤А╤Л╨╣ ╨┐╨╡╤А╨╡╨╛╨┐╤А╨╡╨┤╨╡╨╗╤П╨╡╤В 1 ╨║╨╜╨╛╨┐╨║╤Г ╨┐╨╛╤Н╤В╨╛╨╝╤Г ╨╖╨░╨╜╨╛╨│╨╛ ╨┐╨╡╤А╨╡╨╛╨┐╤А╨╡╨┤╨╡╨╗╨╕╨╗*/
+  font-size: 1.5rem;
+  line-height: 2rem; }
 
-/*текст кнопки с отступами по нормальному*/
-.btn_action>p{
-    font: inherit;
-    padding: 10px 25px;
-    margin: 0;
-}
+/*╤В╨╡╨║╤Б╤В ╨║╨╜╨╛╨┐╨║╨╕ ╤Б ╨╛╤В╤Б╤В╤Г╨┐╨░╨╝╨╕ ╨┐╨╛ ╨╜╨╛╤А╨╝╨░╨╗╤М╨╜╨╛╨╝╤Г*/
+.btn_action > p {
+  font: inherit;
+  padding: 10px 25px;
+  margin: 0; }
 
 .btn_action:hover {
-    transform: unset;
-    background-color: rgb(59, 93, 255);
-    box-shadow: unset;
- }
+  transform: unset;
+  background-color: #3b5dff;
+  box-shadow: unset; }
 
 .arrow-right {
-    color: rgb(59, 93, 255);
-}
+  color: #3b5dff; }
 
 .arrow-left {
-    color:  rgb(207, 47, 90);
-}
+  color: #cf2f5a; }
 
 .service:nth-child(2n+1):hover:before {
-    background:  rgb(207, 47, 90);
-}
+  background: #cf2f5a; }
 
 .service:nth-child(2n):hover:before {
-    background: rgb(59, 93, 255);
-}
+  background: #3b5dff; }
 
 .service:hover .icon-odd:before, .service:hover .icon-even:before {
-    background: #f6f7ff;
-}
+  background: #f6f7ff; }
 
 .service:nth-child(2n+1):hover .icon {
-    color:  rgb(207, 47, 90);
-}
+  color: #cf2f5a; }
 
 .service:nth-child(2n):hover .icon {
-    color: rgb(59, 93, 255);
-}
+  color: #3b5dff; }
 
 span {
-    color: rgb(207, 47, 90);
-}
+  color: #cf2f5a; }
 
 .odd {
-    color: rgb(207, 47, 90);
-}
+  color: #cf2f5a; }
 
 .even {
-    color:  rgb(59, 93, 255);
-}
+  color: #3b5dff; }
 
 .line:before {
-    background-color: rgb(207, 47, 90);
-}
+  background-color: #cf2f5a; }
 
 .icon-odd:before {
-    background-color: rgb(207, 47, 90);
-    box-shadow: -30px 18px 16px 0px rgba(207, 47, 90, 0.23);
-}
+  background-color: #cf2f5a;
+  box-shadow: -30px 18px 16px 0px rgba(207, 47, 90, 0.23); }
+
 .icon-even:before {
-    background-color: rgb(59, 93, 255);
-    box-shadow: 30px 18px 16px 0px rgba(59, 93, 255, 0.23);
-}
+  background-color: #3b5dff;
+  box-shadow: 30px 18px 16px 0px rgba(59, 93, 255, 0.23); }
 
-/*убрал анимацию текста из-за задержки смены цвета*/
+/*╤Г╨▒╤А╨░╨╗ ╨░╨╜╨╕╨╝╨░╤Ж╨╕╤О ╤В╨╡╨║╤Б╤В╨░ ╨╕╨╖-╨╖╨░ ╨╖╨░╨┤╨╡╤А╨╢╨║╨╕ ╤Б╨╝╨╡╨╜╤Л ╤Ж╨▓╨╡╤В╨░*/
 .service:hover h2, .service:hover .arrow-left, .service:hover .arrow-right, .service:hover p {
-    -o-transition: all 0.0s ease-in-out;
-    -moz-transition: all 0.0s ease-in-out;
-    -webkit-transition: all 0.0s ease-in-out;
-    transition: all 0.0s ease-in-out;
-}
+  -o-transition: all 0.0s ease-in-out;
+  -moz-transition: all 0.0s ease-in-out;
+  -webkit-transition: all 0.0s ease-in-out;
+  transition: all 0.0s ease-in-out; }
 
-/*фикс выступающих пикселей на 1 слайде*/
+/*╤Д╨╕╨║╤Б ╨▓╤Л╤Б╤В╤Г╨┐╨░╤О╤Й╨╕╤Е ╨┐╨╕╨║╤Б╨╡╨╗╨╡╨╣ ╨╜╨░ 1 ╤Б╨╗╨░╨╣╨┤╨╡*/
 .rectangle_under_slogan_1__property {
-    transform: matrix3d(1, -0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-}
-.rectangle_under_slogan_2__property {
-    transform: matrix3d(0.99, -0.2, 0, 0, 0.2, 0.98, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-}
-.rectangle_under_slogan_3__property {
-    transform: matrix3d(0.95, -0.3, 0, 0, 0.3, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-}
+  transform: matrix3d(1, -0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
 
-/*убрал у стрелок тень*/
+.rectangle_under_slogan_2__property {
+  transform: matrix3d(0.99, -0.2, 0, 0, 0.2, 0.98, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+.rectangle_under_slogan_3__property {
+  transform: matrix3d(0.95, -0.3, 0, 0, 0.3, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+
+/*╤Г╨▒╤А╨░╨╗ ╤Г ╤Б╤В╤А╨╡╨╗╨╛╨║ ╤В╨╡╨╜╤М*/
 .fa-arrow-left {
-    text-shadow: none;
-}
+  text-shadow: none; }
 
 .fa-arrow-right {
-    text-shadow: none;
-}
+  text-shadow: none; }
 
-/*изменил размеры и скорость анимации у проектов*/
+/*╨╕╨╖╨╝╨╡╨╜╨╕╨╗ ╤А╨░╨╖╨╝╨╡╤А╤Л ╨╕ ╤Б╨║╨╛╤А╨╛╤Б╤В╤М ╨░╨╜╨╕╨╝╨░╤Ж╨╕╨╕ ╤Г ╨┐╤А╨╛╨╡╨║╤В╨╛╨▓*/
 .prodject a:before {
-    transition: all 0.3s ease;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #bfe2ff;
-    transform: scale(0);
-    width: 100%;
-}
+  transition: all 0.3s ease;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #bfe2ff;
+  transform: scale(0);
+  width: 100%; }
 
 .prodject a:after {
-    transition: all 0.6s ease 80ms;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 0;
-    background: #337ab7;
-    opacity: 0;
-    transform: scale(0);
-    width: 100%;
-}
+  transition: all 0.6s ease 80ms;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: #337ab7;
+  opacity: 0;
+  transform: scale(0);
+  width: 100%; }
+
+/*# sourceMappingURL=style1.css.map */
