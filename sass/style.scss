@@ -146,3 +146,10 @@ span {
   transform: scale(0);
   width: 100%;
 }
+
+.stylechanger{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 12000;
+}
