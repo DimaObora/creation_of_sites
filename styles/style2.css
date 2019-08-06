@@ -4,7 +4,7 @@
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%); }
-  #map::after {
+  #map::before {
     content: '';
     position: absolute;
     width: 100%;

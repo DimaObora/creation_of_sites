@@ -11,7 +11,7 @@ $text-color: #ffffff;
 $text-color-second: #ffffff;
 
 #map{
-  &::after {
+  &::before {
     content: '';
     position: absolute;
     width: 100%;
