@@ -1,0 +1,52 @@
+/*steps*/
+.steps {
+  margin-bottom: 3%;
+}
+
+.img_steps {
+  overflow: hidden;
+  width: 340px;
+  height: 170px;
+  margin: auto;
+}
+
+.img_steps img {
+
+  height: 100%;
+}
+
+/*.steps h2:nth-child(-n+3) {*/
+/*    position: absolute;*/
+/*    top: -60px;*/
+/*    right: 20px;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-size: 10em !important;*/
+/*    color: rgba(255,255,255,.05);*/
+/*    transition: 0.5s;*/
+/*    color: #2c3e500f;*/
+/*}*/
+/*.steps h2:nth-child(n+4) {*/
+/*    position: absolute;*/
+/*    top: 160px;*/
+/*    right: 20px;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-size: 10em !important;*/
+/*    color: rgba(255,255,255,.05);*/
+/*    transition: 0.5s;*/
+/*    color: #2c3e500f;*/
+/*}*/
+/*.steps:hover h2:nth-child(n+4) {*/
+/*    top: 220px;*/
+/*}*/
+/*.steps:hover h2:nth-child(-n+3) {*/
+/*    top: -100px;*/
+/*}*/
+@media only screen and (min-width: 992px) {
+  .mar-top-35 {
+    margin-top: 15%;
+  }
+}
+
+/*close steps*/

@@ -32,7 +32,7 @@ $(document).ready(function ($) {
             .removeClass('active');
 
 
-    })
+    });
 
     $(".phone-mask").mask("+7 (999) 99-99-9999");
     ymaps.ready(init);

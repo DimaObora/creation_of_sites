@@ -1,0 +1,97 @@
+//кастомные цвета
+body {
+  background-color: $five-color;
+  color: $text-color;
+}
+
+.slogan h1 {
+  color: $text-color-second;
+}
+
+.btn_action {
+  background-color: $first-color;
+}
+
+.btn_action:hover {
+  background-color: $second-color;
+}
+
+.arrow-right {
+  color: $second-color;
+}
+
+.arrow-left {
+  color: $first-color;
+}
+
+.service:nth-child(2n+1):before, .service:nth-child(2n):before {
+  background-color: $five-color;
+}
+
+.service:nth-child(2n+1):hover:before {
+  background: $first-color;
+}
+
+.service:nth-child(2n):hover:before {
+  background: $second-color;
+}
+
+.service:hover .icon-odd:before, .service:hover .icon-even:before {
+  background: $five-color;
+}
+
+.service:nth-child(2n+1):hover .icon {
+  color: $first-color;
+}
+
+.service:nth-child(2n):hover .icon {
+  color: $second-color;
+}
+
+span {
+  color: $first-color;
+}
+
+.odd {
+  color: $first-color;
+}
+
+.even {
+  color: $second-color;
+}
+
+.line:before {
+  background-color: $first-color;
+}
+
+.icon-odd:before {
+  background-color: $first-color;
+  box-shadow: -30px 18px 16px 0px $first-color-dark;
+}
+
+.icon-even:before {
+  background-color: $second-color;
+  box-shadow: 30px 18px 16px 0px $second-color-dark;
+}
+
+//фикс выступающих пикселей на 1 слайде
+.rectangle_under_slogan_1__property {
+  background-color: $six-color;
+}
+
+.rectangle_under_slogan_2__property {
+  background-color: $thirst-color;
+}
+
+.rectangle_under_slogan_3__property {
+  background-color: $six-color;
+}
+
+//изменил размеры и скорость анимации у проектов
+.prodject a:before {
+  background: $four-color;
+}
+
+.prodject a:after {
+  background: $thirst-color;
+}

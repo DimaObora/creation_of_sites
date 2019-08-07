@@ -1,0 +1,30 @@
+/*about us*/
+.img_about_us {
+  width: 100%;
+}
+
+.center_btn_project {
+  left: 50%;
+  margin-left: -97px;
+}
+
+.marg-auto {
+  margin: auto;
+}
+
+.center_btn_abaut_as {
+  left: 50%;
+  margin-left: -177px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bot-8 {
+    margin-bottom: 8%;
+  }
+
+  .about_us p {
+    font-size: 1.2rem;
+  }
+}
+
+/*close about us*/
