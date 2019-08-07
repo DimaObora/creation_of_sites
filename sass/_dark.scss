@@ -3,21 +3,21 @@ $first-color: rgb(207, 47, 90);
 $second-color: rgb(59, 93, 255);
 $first-color-dark: rgba($first-color, 0.23);
 $second-color-dark: rgba($second-color, 0.23);
-$thirst-color: #222222;//блоки с проектами
-$four-color: #161616;//блоки с проектами
-$five-color: rgb(8, 8, 8);//бэкграунд
-$six-color: rgb(30, 30, 30);//блоки в шапке
+$thirst-color: #222222; //блоки с проектами
+$four-color: #161616; //блоки с проектами
+$five-color: rgb(8, 8, 8); //бэкграунд
+$six-color: rgb(30, 30, 30); //блоки в шапке
 $text-color: #ffffff;
 $text-color-second: #ffffff;
 
-#map{
+#map {
   -webkit-filter: invert(100%);
   -moz-filter: invert(100%);
   -ms-filter: invert(100%);
   -o-filter: invert(100%);
   filter: invert(100%);
 
-  .content_map{
+  .content_map {
     -webkit-filter: invert(100%);
     -moz-filter: invert(100%);
     -ms-filter: invert(100%);

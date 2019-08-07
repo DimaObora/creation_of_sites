@@ -16,24 +16,25 @@
 }
 
 .prodject img + img,
-.prodject img + h2 {
+.prodject img + table {
   display: block;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 33%;
+  left: 25%;
   margin-top: 3px;
-  margin-left: -114px;
+  margin-left: -98px;
   transition: transform 0.7s ease 0s;
   transform: scale(0);
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   color: #fff;
   z-index: 1;
   text-transform: uppercase;
   padding: 0 15px;
+  width: 100%;
 }
 
 .prodject a:hover img + img,
-.prodject a:hover img + h2 {
+.prodject a:hover img + table {
   transform: scale(1);
   opacity: 1;
 }
@@ -43,12 +44,12 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 15px;
+  left: 0;
   right: 0;
   bottom: 0;
   background: #bfe2ff;
   transform: scale(0);
-  width: 94%;
+  width: 100%;
 }
 
 .prodject a:hover:before {
@@ -57,18 +58,20 @@
 }
 
 .prodject a:after {
-  transition: all 0.6s ease 0.2s;
   content: "";
   position: absolute;
-  top: 8px;
-  left: 23px;
-  right: 23px;
-  bottom: 8px;
-  border: 3px solid #fff;
   background: #337ab7;
+  transition: all 0.6s ease 80ms;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
   opacity: 0;
   transform: scale(0);
-  width: 89%;
+  width: 100%;
+
+
 }
 
 .prodject a:hover:after {
@@ -80,15 +83,63 @@
   left: 50%;
   margin-left: -97px;
 }
+
+.prodject {
+  padding: 0 !important;
+  margin: 0;
+}
+
 @media only screen and (min-width: 992px) {
-  .prodject:nth-child(3n-1){
+  .prodject:nth-child(3n-1) {
     box-shadow: -25px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    padding-left: 0 !important;
   }
-  .prodject:nth-child(3n-3){
+  .prodject:nth-child(3n-3) {
     box-shadow: 0px 25px 16px 0px rgba(0, 0, 0, 0.23);
   }
-  .prodject:nth-child(3n-2){
+  .prodject:nth-child(3n-2) {
     box-shadow: 25px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    padding-right: 0 !important;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .prodject img + img, .prodject img + table {
+    top: 26%;
+    left: 32%;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .prodject img + img, .prodject img + table {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+
+  .prodject img + img, .prodject img + table {
+    margin-left: -130px;
+    top: 29%;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+
+  .prodject img + img, .prodject img + table {
+    font-size: 1.2rem;
+    margin-left: -150px;
+  }
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2032px) {
+
+  .prodject img + img, .prodject img + table {
+    font-size: 1rem;
+    margin-left: -130px;
+  }
+}
+
 /*close project*/
