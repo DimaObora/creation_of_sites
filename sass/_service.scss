@@ -54,7 +54,7 @@ span {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  padding-right: 0px !important;
+  padding-right: 0 !important;
 
 }
 
@@ -202,7 +202,7 @@ i {
   background-color: #162bff;
   border-width: 1px;
   border-radius: 5px;
-  box-shadow: 30px 18px 16px 0px rgba(0, 0, 0, 0.23);
+  box-shadow: 30px 18px 16px 0 rgba(0, 0, 0, 0.23);
 }
 .linkblock {
   cursor: pointer;

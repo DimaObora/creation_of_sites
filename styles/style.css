@@ -38,10 +38,10 @@
   transition: none 0s ease 0s;
   text-align: inherit;
   line-height: 27px;
-  border-width: 0px;
-  margin: 0px;
-  padding: 0px;
-  letter-spacing: 0px;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
   font-weight: 100;
   font-size: 15px;
   white-space: nowrap;
@@ -51,7 +51,7 @@
   max-width: 1300px;
   opacity: 1;
   transform: matrix3d(1, -0.1, 0, 0, 0.1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transform-origin: 50% 50% 0px; }
+  transform-origin: 50% 50% 0; }
 
 .rectangle_under_slogan_2 {
   position: absolute;
@@ -69,10 +69,10 @@
   transition: none 0s ease 0s;
   text-align: inherit;
   line-height: 27px;
-  border-width: 0px;
-  margin: 0px;
-  padding: 0px;
-  letter-spacing: 0px;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
   font-weight: 100;
   font-size: 15px;
   white-space: nowrap;
@@ -82,7 +82,7 @@
   max-width: 1300px;
   opacity: 1;
   transform: matrix3d(0.99, -0.2, 0, 0, 0.2, 0.98, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transform-origin: 50% 50% 0px; }
+  transform-origin: 50% 50% 0; }
 
 .rectangle_under_slogan_3 {
   position: absolute;
@@ -100,10 +100,10 @@
   transition: none 0s ease 0s;
   text-align: inherit;
   line-height: 27px;
-  border-width: 0px;
-  margin: 0px;
-  padding: 0px;
-  letter-spacing: 0px;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
   font-weight: 100;
   font-size: 15px;
   white-space: nowrap;
@@ -113,7 +113,7 @@
   max-width: 2000px;
   opacity: 1;
   transform: matrix3d(0.95, -0.3, 0, 0, 0.3, 0.96, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transform-origin: 50% 50% 0px; }
+  transform-origin: 50% 50% 0; }
 
 .slogan {
   top: 66%;
@@ -136,11 +136,11 @@
   visibility: inherit;
   transition: none 0s ease 0s;
   text-align: inherit;
-  border-width: 0px;
+  border-width: 0;
   margin: 4%;
-  padding: 0px;
-  min-height: 0px;
-  min-width: 0px;
+  padding: 0;
+  min-height: 0;
+  min-width: 0;
   max-height: none;
   max-width: none;
   opacity: 1; }
@@ -412,7 +412,7 @@ span {
 
   .clock {
     top: 29%;
-    left: 0%; }
+    left: 0; }
 
   .clock img {
     height: 400px; }
@@ -607,7 +607,7 @@ span {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  padding-right: 0px !important; }
+  padding-right: 0 !important; }
 
 .service:nth-child(2n):before {
   background: #f6f7ff;
@@ -734,7 +734,7 @@ i {
   background-color: #162bff;
   border-width: 1px;
   border-radius: 5px;
-  box-shadow: 30px 18px 16px 0px rgba(0, 0, 0, 0.23); }
+  box-shadow: 30px 18px 16px 0 rgba(0, 0, 0, 0.23); }
 
 .linkblock {
   cursor: pointer; }
@@ -942,10 +942,10 @@ i {
     padding-left: 0 !important; }
 
   .prodject:nth-child(3n-3) {
-    box-shadow: 0px 25px 16px 0px rgba(0, 0, 0, 0.23); }
+    box-shadow: 0 25px 16px 0 rgba(0, 0, 0, 0.23); }
 
   .prodject:nth-child(3n-2) {
-    box-shadow: 25px 25px 16px 0px rgba(0, 0, 0, 0.23);
+    box-shadow: 25px 25px 16px 0 rgba(0, 0, 0, 0.23);
     padding-right: 0 !important; } }
 @media only screen and (min-width: 1200px) {
   .prodject img + img, .prodject img + table {
@@ -1019,7 +1019,6 @@ i {
   height: 50px;
   width: 100%;
   border-radius: 3px;
-  border: none;
   border: 1px solid #bfe2ff;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -1031,7 +1030,6 @@ i {
 .message {
   width: 100%;
   height: 100px;
-  border: none;
   border: 1px solid #bfe2ff;
   background: #f6f7ff;
   -moz-border-radius: 3px;
@@ -1106,7 +1104,6 @@ i {
 .callback-bt i {
   color: #fff;
   font-size: 34px;
-  transition: .3s;
   line-height: 66px;
   transition: .5s ease-in-out; }
 
@@ -1283,8 +1280,7 @@ i {
   bottom: 17%;
   padding: 3% 3% 1%;
   color: white;
-  background: url(../img/slider_1.png) no-repeat;
-  background-position: -1%;
+  background: url(../img/slider_1.png) no-repeat -1%;
   z-index: 9; }
 
 .bot-8 {
@@ -1367,7 +1363,6 @@ i {
     height: 34px;
     width: 100%;
     border-radius: 3px;
-    border: none;
     border: 1px solid #bfe2ff;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -1379,7 +1374,6 @@ i {
   .colback_message {
     width: 100%;
     height: 68px;
-    border: none;
     border: 1px solid #bfe2ff;
     background: #f6f7ff;
     -moz-border-radius: 3px;

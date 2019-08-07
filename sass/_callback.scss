@@ -34,7 +34,6 @@
 .callback-bt i {
   color: #fff;
   font-size: 34px;
-  transition: .3s;
   line-height: 66px;
   transition: .5s ease-in-out;
 }
@@ -264,8 +263,7 @@
   bottom: 17%;
   padding: 3% 3% 1%;
   color: white;
-  background: url(../img/slider_1.png) no-repeat;
-  background-position: -1%;
+  background: url(../img/slider_1.png) no-repeat -1%;
   z-index: 9;
 }
 
@@ -363,7 +361,6 @@
     height: 34px;
     width: 100%;
     border-radius: 3px;
-    border: none;
     border: 1px solid #bfe2ff;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -375,7 +372,6 @@
   .colback_message {
     width: 100%;
     height: 68px;
-    border: none;
     border: 1px solid #bfe2ff;
     background: #f6f7ff;
     -moz-border-radius: 3px;
