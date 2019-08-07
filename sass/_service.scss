@@ -114,12 +114,12 @@ i {
   display: inline-block;
 }
 
-.fa-arrow-left {
-  text-shadow: -12px 8px 8px rgba(0, 0, 0, 0.28);
+.arrow-right .fa-arrow-right:before{
+  display: none;
 }
 
-.fa-arrow-right {
-  text-shadow: 12px 8px 8px rgba(0, 0, 0, 0.28);
+.arrow-right .fa-arrow-right:after{
+  content: "\f061";
 }
 
 .arrow-left {
@@ -129,7 +129,6 @@ i {
   z-index: 1;
   bottom: 0;
   left: 10%;
-
 }
 
 .arrow-right {
