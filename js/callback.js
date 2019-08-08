@@ -45,17 +45,21 @@ $(document).ready(function ($) {
         alert(0);
         if (mailvalid == true && msglen >= 1) {
             alert(1);
+            console.log(thisform.serialize());
             $.ajax({
                 type: 'POST',
                 url: 'callback.php',
                 data: thisform.serialize(),
                 success: function (data) {
                     alert("Отправленно!");
+                    console.log(data);
                 },
                 error: function (data) {
                     alert("Ошибка!");
                     console.log(data);
                 }
+            }).done(function (data) {
+                console.log(data);
             });
         }
     });

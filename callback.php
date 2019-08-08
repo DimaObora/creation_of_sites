@@ -1,6 +1,5 @@
 <?php
 require_once "settings/settingscallback.php";
-$sendto   = "web-originals@yandex.ru";
 $usermail = $_POST['email'];
 $username = $_POST['name'];
 $userphone = $_POST['phone'];
@@ -27,16 +26,16 @@ if(@mail($sendto, $subject, $msg, $headers)) {
 	echo "false";
 }
 
-function send($id, $message,$access_tocken,$secret)
+function send($id, $message,$access_tocken)
 {
     $url = 'https://api.vk.com/method/messages.send';
     $params = array(
-        'peer_id' => $id,    // Кому отправляем
+        'user_ids' => $id,    // Кому отправляем
         'message' => $message,   // Что отправляем
         'access_token' => $access_tocken,  // access_token можно вбить хардкодом, если работа будет идти из под одного юзера
         'v'=>'5.38',
     );
-    $sig = md5("/method/messages.send?".http_build_query($params).$secret);
+    $sig = md5("/method/messages.send?".http_build_query($params));
     $params['sig']= $sig;
     // В $result вернется id отправленного сообщения
     $result = file_get_contents($url, false, stream_context_create(array(
@@ -46,6 +45,7 @@ function send($id, $message,$access_tocken,$secret)
             'content' => http_build_query($params)
         )
     )));
+    echo $result;
 }
 
 ?>
