@@ -11,6 +11,10 @@
     -o-filter: invert(100%);
     filter: invert(100%); }
 
+.stylechanger select, .stylechanger select:hover, .stylechanger select:focus {
+  background-color: #1e1e1e;
+  color: white; }
+
 body {
   background-color: #080808;
   color: #ffffff; }
