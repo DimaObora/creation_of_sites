@@ -255,14 +255,7 @@ i {
   transform: translateX(-50px);
 }
 
-.service:hover div .even, .service:hover div .odd {
-  -o-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-.service:hover h2, .service:hover .arrow-left, .service:hover .arrow-right, .service:hover p {
+.service:hover .arrow-left, .service:hover .arrow-right {
   -o-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
