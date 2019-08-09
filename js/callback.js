@@ -60,5 +60,6 @@ $(document).ready(function ($) {
                 console.log(data);
             });
         }
+        grecaptcha.reset();
     });
 });
