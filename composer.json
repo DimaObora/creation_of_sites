@@ -1,5 +1,5 @@
 {
-  "name": "DimaObora/creation_of_sites",
+  "name": "dimaobora/creation_of_sites",
   "description": "web-originals studio",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -11,7 +11,7 @@
   ],
 
   "require": {
-    "VKCOM/vk-php-sdk": "*",
+    "vkcom/vk-php-sdk": "*",
     "phpmailer/phpmailer": "^6.0"
   }
 }
