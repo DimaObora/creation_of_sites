@@ -42,9 +42,7 @@ $(document).ready(function ($) {
         else if (msglen >= 4) {
             thisform.find("textarea[name$='message']").removeClass("error");
         }
-        alert(0);
         if (mailvalid == true && msglen >= 1) {
-            alert(1);
             console.log(thisform.serialize());
             $.ajax({
                 type: 'POST',
