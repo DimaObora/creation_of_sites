@@ -1,0 +1,1 @@
+php composer.phar update --ignore-platform-reqs
