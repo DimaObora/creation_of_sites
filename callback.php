@@ -13,7 +13,7 @@ $userphone = $_POST['phone'];
 $content  = nl2br($_POST['message']);
 $gRecaptchaResponse = $_POST['g-recaptcha-response'];
 
-$recaptcha = new \ReCaptcha\ReCaptcha($secret);
+$recaptcha = new \ReCaptcha\ReCaptcha($SECRET_RECAPCHA);
 $resp = $recaptcha->setExpectedHostname($EXPECTED_HOSTNAME)
     ->verify($gRecaptchaResponse, getIpClient());
 if ($resp->isSuccess()) {
