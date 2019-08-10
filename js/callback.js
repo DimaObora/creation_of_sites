@@ -6,7 +6,7 @@ function validateEmail(email) {
 }
 $(document).ready(function ($) {
 //кнопка отправки заявки
-    $("#feedbackform").submit(function () {
+    $(".nosumbit").submit(function () {
         return false;
     });
     $(".callback-bt-1").on("click", function () {
@@ -15,34 +15,9 @@ $(document).ready(function ($) {
         var namevl = thisform.find("input[name$='name']").val();
         var phonevl = thisform.find("input[name$='phone']").val();
         var msgval = thisform.find("textarea[name$='message']").val();
-        var msglen = msgval.length;
         var mailvalid = validateEmail(emailval);
 
-        if (mailvalid == false) {
-            thisform.find("input[name$='email']").addClass("error");
-        }
-        else if (mailvalid == true) {
-            thisform.find("input[name$='email']").removeClass("error");
-        }
-        if (mailvalid == false) {
-            thisform.find("input[name$='name']").addClass("error");
-        }
-        else if (mailvalid == true) {
-            thisform.find("input[name$='name']").removeClass("error");
-        }
-        if (mailvalid == false) {
-            thisform.find("input[name$='phone']").addClass("error");
-        }
-        else if (mailvalid == true) {
-            thisform.find("input[name$='phone']").removeClass("error");
-        }
-        if (msglen < 4) {
-            thisform.find("textarea[name$='message']").addClass("error");
-        }
-        else if (msglen >= 4) {
-            thisform.find("textarea[name$='message']").removeClass("error");
-        }
-        if (mailvalid == true && msglen >= 1) {
+        if (mailvalid == true ) {
             console.log(thisform.serialize());
             $.ajax({
                 type: 'POST',
