@@ -1,2 +1,6 @@
 /.idea/
 sass/.sass-cache/*
+settings/settingscallback.php
+vendor/*
+composer.phar
+composer.lock

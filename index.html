@@ -43,10 +43,10 @@
                         Опыт работы <span>5 лет</span></h1>
                     <div class="offer">
                         <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
-                            <form id="feedbackformhedermin">
-                                <input name="pfone" placeholder="Укажите ваш телефон!"
+                            <form class="nosumbit" id="feedbackformhedermin">
+                                <input name="phone" placeholder="Укажите ваш телефон!"
                                        class="textbox feedback col-xl-12 col-sm-12  phone-mask" required/>
-                                <button class="btn_action bot-8 font-siz with pad" type="submit" id="feedbackbthedermin"><p>
+                                <button class="btn_action callback-bt-1 bot-8 font-siz with pad" type="submit" id="feedbackbthedermin"><p>
                                     Бесплатная консультация</p></button>
                             </form>
                         </div>
@@ -71,10 +71,10 @@
                 </div>
                 <div class="offer">
                     <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12">
-                        <form id="feedbackformheder">
-                            <input name="pfone" placeholder="Телефон для консультации!"
+                        <form class="nosumbit" id="feedbackformheder">
+                            <input name="phone" placeholder="Телефон для консультации!"
                                    class="textbox feedback col-xl-12 col-sm-12  phone-mask" required/>
-                            <button class="btn_action  font-siz with  " type="submit" id="feedbackbtheder"><p>Бесплатная
+                            <button class="btn_action  font-siz with  callback-bt-1" type="submit" id="feedbackbtheder"><p>Бесплатная
                                 консультация</p></button>
                         </form>
                     </div>
@@ -620,18 +620,18 @@
                 <div class="title line col-12 col-sm-12 col-md-12 col-xl-12 bot-8">
                     <h1 class="text-center">Связаться<span> с нами</span></h1>
                 </div>
-                <form id="feedbackform">
+                <form class="nosumbit" id="feedbackform">
                     <input name="name" placeholder="Укажите ваше имя!" class="textbox feedback col-xl-12 col-sm-12  "
                            required/>
-                    <input name="pfone" placeholder="Укажите ваш телефон!"
+                    <input name="phone" placeholder="Укажите ваш телефон!"
                            class="textbox feedback col-xl-12 col-sm-12  phone-mask" required/>
-                    <input name="emailaddress" placeholder="Укажите ваш Email!"
+                    <input name="email" placeholder="Укажите ваш Email!"
                            class="textbox feedback col-xl-12 col-sm-12 "
                            type="email" required/>
                     <textarea rows="4" cols="50" name="message" placeholder="Введите ваше сообщение:"
                               class="message feedback" required></textarea>
                     <div class="g-recaptcha" data-sitekey="6LcdK7EUAAAAAPgpRNq5lbVN_01dcO2_epALeIIo"></div>
-                    <button class="btn_action bot-8 btn_text_center with" type="submit" id="feedbackbt"><p>Отправить</p>
+                    <button class="btn_action bot-8 btn_text_center with callback-bt-1" type="submit" id="feedbackbt"><p>Отправить</p>
                     </button>
                 </form>
             </div>
@@ -663,28 +663,32 @@
                     </div>
                 </li>
                 <li class="tabs_item tabs_item_third">
-                    <form id="feedbackformcollback">
+                    <form class="nosumbit" id="feedbackformcollback">
                         <h2 class="bot-8">Перезвоним в течение 2 минут</h2>
-                        <input name="pfone" placeholder="Укажите ваш телефон!"
+                        <input name="phone" placeholder="Укажите ваш телефон!"
                                class="collback_input feedback col-xl-7 col-sm-6  phone-mask" required/>
-                        <input class="btn_collbasck " type="submit" id="feedbackbtcollback" value="Перезвонить"/>
+                        <button class="btn_collbasck callback-bt-1" type="submit" id="feedbackbtcollback">
+                            Перезвонить
+                        </button>
                     </form>
                 </li>
                 <li class="tabs_item tabs_item_four">
-                    <form id="collback_form">
+                    <form class="nosumbit" id="collback_form" action="callback.php">
                         <h5>Оставьте свое сообщение и мы Вам ответин на Email</h5>
                         <input name="name" placeholder="Укажите ваше имя!"
                                class="collback_input feedback col-xl-12 col-sm-12  "
                                required/>
-                        <input name="pfone" placeholder="Укажите ваш телефон!"
+                        <input name="phone" placeholder="Укажите ваш телефон!"
                                class="collback_input feedback col-xl-12 col-sm-12  phone-mask" required/>
-                        <input name="emailaddress" placeholder="Укажите ваш Email!"
+                        <input name="email" placeholder="Укажите ваш Email!"
                                class="collback_input feedback col-xl-12 col-sm-12 "
                                type="email" required/>
                         <textarea rows="4" cols="50" name="message" placeholder="Введите ваше сообщение:"
                                   class="colback_message feedback" required></textarea>
-                        <input class="collback_btn_action bot-8 " type="submit" id="collback_form_btn"
-                               value="Отправить"/>
+                        <div class="g-recaptcha" data-sitekey="6LcdK7EUAAAAAPgpRNq5lbVN_01dcO2_epALeIIo"></div>
+                        <button class="collback_btn_action bot-8 callback-bt-1" type="submit" id="collback_form_btn">
+                            Отправить
+                        </button>
                     </form>
                 </li>
             </ul>
@@ -732,6 +736,7 @@
 <script src="js/main.js"></script>
 <script src="js/mask.js"></script>
 <script src="js/changetheme.js"></script>
+<script src="js/callback.js"></script>
 <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
 <!-- VK Widget -->
 <script type="text/javascript">
