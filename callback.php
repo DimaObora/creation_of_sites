@@ -89,6 +89,8 @@ try {
     //Recipients
     $mail->setFrom($EMAIL_LOGIN, 'Web-Originals');
     $mail->addAddress($SEND_TO_EMAIL, 'username');     // Add a recipient
+    if(isset($SEND_TO_EMAIL_CC))
+        $mail->AddCC($SEND_TO_EMAIL_CC);
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
