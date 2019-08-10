@@ -204,7 +204,7 @@
   z-index: 9;
 }
 
-.tabs_controls-item {
+.tabs_controls-item, .tabs_controls-item-no-change {
   display: inline-block;
   color: white;
   background: #38a3fd4d;
@@ -297,7 +297,7 @@
   display: none;
 }
 
-.tabs_controls-item a {
+.tabs_controls-item a ,.tabs_controls-item-no-change a{
   color: #fff;
   padding: 9px
 }
@@ -330,7 +330,7 @@
 }
 
 @media only screen and (min-width: 991px) {
-  .tabs_controls-item:nth-child(5) {
+  .tabs_controls-item-no-change {
     width: 55px;
     height: 55px;
     font-size: 1.8rem;
